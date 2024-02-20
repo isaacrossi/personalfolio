@@ -21,7 +21,13 @@ export default {
       light: "#DCD7C9",
       tertiary: "#E68333",
     },
-    extend: {},
+    extend: {
+      lineHeight: {
+        tightest: "0.8",
+        "extra-tight": "0.9",
+        12: "3rem",
+      },
+    },
   },
   plugins: [],
 };
