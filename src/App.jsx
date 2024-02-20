@@ -1,5 +1,5 @@
-const App = () => (
-  <h1 className="text-5xl uppercase font-heading">Frontend Developer</h1>
-);
+import { Header } from "./components/Header";
+
+const App = () => <Header />;
 
 export default App;
