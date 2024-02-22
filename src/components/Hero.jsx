@@ -5,7 +5,7 @@ const Hero = () => (
     <div className="container mx-auto grid grid-cols-12 items-center">
       <h1 className="flex flex-col col-start-2 font-heading text-5xl leading-tightest text-light uppercase ">
         Frontend
-        <span className="ml-36">Developer</span>
+        <span className="ml-24">Developer</span>
       </h1>
       <div className="flex flex-col items-stretch col-start-8 col-span-4">
         <p className="w-64 border-b pb-4 mb-20 text-sm text-light">
