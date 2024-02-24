@@ -2,7 +2,7 @@ import Logo from "/src/assets/images/logo-light.svg?react";
 
 const Header = () => (
   <div className="bg-dark">
-    <header className="bg-dark mx-20 py-5 flex justify-between">
+    <header className="bg-dark mx-20 py-6 flex justify-between">
       <Logo />
       <nav>
         <ul className="flex">

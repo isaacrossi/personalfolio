@@ -1,7 +1,7 @@
 import Arrow from "/src/assets/images/arrow.svg?react";
 
 const Hero = () => (
-  <section className="bg-dark pt-24 pb-28">
+  <section className="bg-dark pt-24 pt-56 pb-80">
     <div className="container mx-auto grid grid-cols-12 items-center">
       <h1 className="flex flex-col col-start-2 font-heading text-5xl leading-tightest text-light uppercase ">
         Frontend

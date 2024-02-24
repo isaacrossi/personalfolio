@@ -27,6 +27,9 @@ export default {
         "extra-tight": "0.9",
         12: "3rem",
       },
+      borderRadius: {
+        "4xl": "32px",
+      },
     },
   },
   plugins: [],
