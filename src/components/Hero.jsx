@@ -1,7 +1,7 @@
-import Arrow from "/src/assets/images/arrow.svg?react";
+import { LinkToPage } from "./LinkToPage";
 
 const Hero = () => (
-  <section className="bg-dark pt-24 pt-56 pb-80">
+  <section className="bg-dark pt-56 pb-80 lg:h-lvh lg:pt-24 lg:pb-28">
     <div className="container mx-auto grid grid-cols-12 items-center">
       <h1 className="flex flex-col col-start-2 font-heading text-5xl leading-tightest text-light uppercase ">
         Frontend
@@ -13,12 +13,7 @@ const Hero = () => (
           entry-level role. I am passionate about building projects that look
           good and scale well.
         </p>
-        <a className="flex self-end items-center">
-          <span className="mr-2 text-sm text-light uppercase">
-            See Projects
-          </span>
-          <Arrow />
-        </a>
+        <LinkToPage isDarkBackground={true} />
       </div>
     </div>
   </section>

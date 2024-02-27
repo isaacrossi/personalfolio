@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { createClient } from "contentful";
 
+import { LinkToPage } from "./LinkToPage";
+
 const FeaturedProjects = () => {
   const [featuredProjects, setFeaturedProjects] = useState([]);
 
@@ -24,7 +26,7 @@ const FeaturedProjects = () => {
   }, []);
   return (
     <section className="container mx-auto pt-24 pb-28">
-      <div className="mx-20 grid grid-cols-12 justify-between">
+      <div className="mx-20 grid grid-cols-12 justify-between mb-10">
         <h2 className="text-4xl font-heading uppercase leading-[0.53] col-span-1">
           Work
         </h2>
@@ -49,6 +51,7 @@ const FeaturedProjects = () => {
           })}
         </div>
       </div>
+      <LinkToPage isDarkBackground={false} />
     </section>
   );
 };
