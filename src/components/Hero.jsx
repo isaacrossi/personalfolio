@@ -1,7 +1,7 @@
-import { LinkToPage } from "./LinkToPage";
+import { LinkWithArrow } from "./LinkWithArrow";
 
 const Hero = () => (
-  <section className="bg-dark pt-56 pb-80 lg:h-lvh lg:pt-24 lg:pb-28">
+  <section className="bg-dark pt-56 pb-80 h-lvh xl:h-auto">
     <div className="container mx-auto grid grid-cols-12 items-center">
       <h1 className="flex flex-col col-start-2 font-heading text-5xl leading-tightest text-light uppercase ">
         Frontend
@@ -13,7 +13,7 @@ const Hero = () => (
           entry-level role. I am passionate about building projects that look
           good and scale well.
         </p>
-        <LinkToPage isDarkBackground={true} />
+        <LinkWithArrow isDarkBackground={true}>See Projects</LinkWithArrow>
       </div>
     </div>
   </section>
